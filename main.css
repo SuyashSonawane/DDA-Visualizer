@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* .container {
+    height: 450px;
+    width: 450px;
+    background: red;
+    border: 1px solid black;
+} */
+.pixel {
+    width: 10px;
+    height: 10px;
+    border: solid 1px black;
+}
+
+p {
+    text-align: center;
+}
+
+.points {
+    text-align: center;
+    height: 30px;
+    width: 300px;
+    overflow-x: auto;
+}
+
+.main {
+    display: flex;
+}
+
+.origin {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+}
